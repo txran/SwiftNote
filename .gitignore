@@ -11,6 +11,10 @@ dist/
 #   python3 tools/gen_samples.py 40    # 小样例（多标签 / 三格式高亮）
 tools/testdata/
 
+# ---- 测试源码 ----
+# 测试用例只在本地跑（swift run CoreTests），不随仓库分发
+Tests/
+
 # ---- 本地工作记录 ----
 # 含本机路径、调试过程与临时结论，只留在本地，不随仓库分发
 .workbuddy/
