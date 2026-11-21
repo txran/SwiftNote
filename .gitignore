@@ -19,5 +19,11 @@ Tests/
 # 含本机路径、调试过程与临时结论，只留在本地，不随仓库分发
 .workbuddy/
 
+# ---- Xcode ----
+# 用 Xcode 打开 Package.swift 时会生成这些，不该进仓库
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
 # ---- macOS ----
 .DS_Store
